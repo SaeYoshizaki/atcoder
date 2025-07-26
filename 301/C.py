@@ -1,15 +1,5 @@
 from collections import Counter
 
-
-
-def func(samples):
-    list1 = []
-    list2 = []
-    for a, b in samples:
-        list1.append(a)
-        list2.append(b)
-    return list1, list2
-
 def main():
     S = list(input())
     T = list(input())
