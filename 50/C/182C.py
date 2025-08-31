@@ -1,7 +1,15 @@
 def main():
     N = list(map(int, input()))
-    if (sum(N) % 3) == 0:
-        print(0)
+    rest = sum(N) % 3
+    count = 0
+    print(rest)
+    if (rest) == 0:
+        print(count)
+    elif (rest) == 0:
+        count += 1
+    else:
+        count += 1
+
 
 
 if __name__ == "__main__":
